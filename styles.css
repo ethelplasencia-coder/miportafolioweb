@@ -40,3 +40,11 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+img {
+    max-width: 100%;   /* Hace que la imagen no sobrepase el ancho del contenedor */
+    height: auto;      /* Mantiene la proporción de la imagen */
+    display: block;    /* Quita el espacio extra debajo de la imagen */
+    margin: 1rem auto; /* Centra la imagen automáticamente */
+    border-radius: 10px; /* Bordes redondeados (puedes cambiar el valor) */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
